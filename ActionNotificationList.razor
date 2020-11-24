@@ -1,0 +1,42 @@
+@if(_ActionNotificationList.Count > 0){
+
+    <div aria-live="polite" aria-atomic="true" style="position: absolute; min-height: 200px; min-width: 300px; top: 0; right: 0;">
+    <!-- Position it -->
+    <div style="position: absolute; top: 0; right: 0;">
+
+        @foreach (var item in _ActionNotificationList)
+        {
+            <ActionNotificationItem _ActionNotification="item" _CloseHandler="RemoveItem"></ActionNotificationItem>
+        }
+
+        </div>
+    </div>
+}
+
+@code{
+    [Parameter]
+    public List<ActionNotification> _ActionNotificationList { get; set; }
+
+    [Parameter]
+    public int _Delay { get; set; }
+    protected override async Task OnParametersSetAsync()
+    {
+        await RemoveFirst(this._Delay);
+    }
+
+    private async Task RemoveFirst(int delay){
+        await Task.Delay(delay);
+        if(_ActionNotificationList.Count > 0){
+            _ActionNotificationList.RemoveAt(0);
+        }
+
+    }
+    public async Task RemoveItem(ActionNotification actionNotification){
+        if(_ActionNotificationList.Count > 0){
+            _ActionNotificationList.Remove(actionNotification);
+        }
+
+    }
+}
+
+        
