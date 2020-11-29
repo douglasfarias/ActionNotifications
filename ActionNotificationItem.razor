@@ -7,7 +7,7 @@
     </button>
   </div>
   <div class="toast-body">
-    @_ActionNotification.Message
+      <span style="color:@_ActionNotification.TextColor.Name;"><strong>@_ActionNotification.Message</strong></span> 
   </div>
 </div>
 
@@ -17,4 +17,12 @@
 
     [Parameter]
     public EventCallback<ActionNotification> _CloseHandler { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if(_ActionNotification.TextColor == null)
+        {
+            _ActionNotification.TextColor = Color.Black;
+        }
+    }
 }
