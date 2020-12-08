@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\dev\\netcore\\ActionNotifications\\ActionNotifications.csproj",
+  "FilePath": "D:\\dev\\ActionNotifications\\ActionNotifications.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "3.0",
@@ -75,6 +75,75 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "ActionNotifications.ActionNotificationItem",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 586198117,
+        "Kind": "Components.Component",
+        "Name": "ActionNotifications.ActionNotificationList",
+        "AssemblyName": "ActionNotifications",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ActionNotificationList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "_ActionNotificationList",
+            "TypeName": "System.Collections.Generic.List<ActionNotifications.Models.ActionNotification>",
+            "Metadata": {
+              "Common.PropertyName": "_ActionNotificationList"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "_Delay",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "_Delay"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ActionNotifications.ActionNotificationList"
+        }
+      },
+      {
+        "HashCode": -1568935581,
+        "Kind": "Components.Component",
+        "Name": "ActionNotifications.ActionNotificationList",
+        "AssemblyName": "ActionNotifications",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ActionNotifications.ActionNotificationList"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "_ActionNotificationList",
+            "TypeName": "System.Collections.Generic.List<ActionNotifications.Models.ActionNotification>",
+            "Metadata": {
+              "Common.PropertyName": "_ActionNotificationList"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "_Delay",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "_Delay"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "ActionNotifications.ActionNotificationList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -11539,18 +11608,18 @@
   "RootNamespace": "ActionNotifications",
   "Documents": [
     {
-      "FilePath": "c:\\dev\\netcore\\ActionNotifications\\ActionNotificationList.razor",
-      "TargetPath": "ActionNotificationList.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\dev\\netcore\\ActionNotifications\\_Imports.razor",
+      "FilePath": "D:\\dev\\ActionNotifications\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
     },
     {
-      "FilePath": "c:\\dev\\netcore\\ActionNotifications\\ActionNotificationItem.razor",
+      "FilePath": "D:\\dev\\ActionNotifications\\ActionNotificationItem.razor",
       "TargetPath": "ActionNotificationItem.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "D:\\dev\\ActionNotifications\\ActionNotificationList.razor",
+      "TargetPath": "ActionNotificationList.razor",
       "FileKind": "component"
     }
   ],

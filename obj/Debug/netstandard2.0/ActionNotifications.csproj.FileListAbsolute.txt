@@ -24,7 +24,6 @@ C:\dev\netcore\ActionNotifications\obj\Debug\netstandard2.0\Razor\ActionNotifica
 D:\dev\ActionNotifications\bin\Debug\netstandard2.0\ActionNotifications.deps.json
 D:\dev\ActionNotifications\bin\Debug\netstandard2.0\ActionNotifications.dll
 D:\dev\ActionNotifications\bin\Debug\netstandard2.0\ActionNotifications.pdb
-D:\dev\ActionNotifications\obj\Debug\netstandard2.0\ActionNotifications.csprojAssemblyReference.cache
 D:\dev\ActionNotifications\obj\Debug\netstandard2.0\ActionNotifications.AssemblyInfoInputs.cache
 D:\dev\ActionNotifications\obj\Debug\netstandard2.0\ActionNotifications.AssemblyInfo.cs
 D:\dev\ActionNotifications\obj\Debug\netstandard2.0\ActionNotifications.csproj.CoreCompileInputs.cache
@@ -46,3 +45,4 @@ D:\dev\ActionNotifications\obj\Debug\netstandard2.0\scopedcss\bundle\ActionNotif
 D:\dev\ActionNotifications\obj\Debug\netstandard2.0\ActionNotifications.RazorTargetAssemblyInfo.cache
 D:\dev\ActionNotifications\obj\Debug\netstandard2.0\ActionNotifications.dll
 D:\dev\ActionNotifications\obj\Debug\netstandard2.0\ActionNotifications.pdb
+D:\dev\ActionNotifications\obj\Debug\netstandard2.0\ActionNotifications.csprojAssemblyReference.cache
